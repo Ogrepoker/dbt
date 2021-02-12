@@ -1,6 +1,5 @@
-select
-    id as customer_id,
+select 
+    id from customer_id,
     first_name,
     last_name
-
-from testdata1.jaffle_shop_customers
+from {{ source('test1', 'stg_customers') }}

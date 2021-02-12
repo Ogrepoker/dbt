@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: test1
+    database: test1-304602
+    tables:
+      - name: stg_payments
